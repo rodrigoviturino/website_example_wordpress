@@ -1,0 +1,31 @@
+.about {
+    .banner-interno {
+        position: relative;
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            height: auto;
+            background-color: rgba(0, 0, 0, 0.226);
+
+            .breadcrumb {
+
+                .breadcrumb-item {
+                    a {
+                        color: rgb(214, 211, 211);
+                        cursor: pointer;
+                    }
+                }
+
+                .active {
+                    color: white;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
